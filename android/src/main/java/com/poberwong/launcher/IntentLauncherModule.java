@@ -45,7 +45,7 @@ public class IntentLauncherModule extends ReactContextBaseJavaModule implements 
      * getReactApplicationContext().startActivity(intent);
      */
     @ReactMethod
-    public void startActivity(ReadableMap params, final Promise promise) {
+    public void startActivity(final Promise promise) {
         this.promise = promise;         
         Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
                              Uri.parse("package:" + getReactApplicationContext().getPackageName()));
