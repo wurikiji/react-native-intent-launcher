@@ -1,19 +1,19 @@
 {
-  "name": "react-native-intent-launcher",
+  "name": "react-native-overlay-permission",
   "version": "0.1.1",
-  "description": "call native function about intent in react-native android",
+  "description": "Call overlay permission intent",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bob1993/react-native-intent-launcher.git"
+    "url": "git+https://github.com/wurikiji/react-native-overlay-permission.git"
   },
   "author": "poberwong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Bob1993/react-native-intent-launcher/issues"
+    "url": "https://github.com/wurikiji/react-native-overlay-permission/issues"
   },
-  "homepage": "https://github.com/Bob1993/react-native-intent-launcher#readme"
+  "homepage": "https://github.com/wurikiji/react-native-overlay-permission#readme"
 }
